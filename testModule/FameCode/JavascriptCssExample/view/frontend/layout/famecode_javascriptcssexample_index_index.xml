@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+        <css src="FameCode_JavascriptCssExample::css/test.css"/>
+        <link src="FameCode_JavascriptCssExample::js/test.js"/>
+    </head>
+	<referenceBlock name="content">
+		<block template="content.phtml" class="FameCode\JavascriptCssExample\Block\Main" name="famecode_javascriptcssexample_block_main"/>
+	</referenceBlock>
+</page>

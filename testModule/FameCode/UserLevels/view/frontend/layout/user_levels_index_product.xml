@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <container name="root">
+
+      <referenceBlock name="page.main.title">
+        <arguments>
+            <argument name="css_class" xsi:type="string">moduct</argument>
+            <argument name="add_base_attribute" xsi:type="string">itemprop="lame"</argument>
+        </arguments>
+      </referenceBlock>
+
+    </container>
+
+</page>

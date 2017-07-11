@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+  <frontend>
+        <events>
+            <controller_action_layout_load_before>
+                <observers>
+                    <add_Customer_handler>
+                        <class>UserLevels/observer</class>
+                        <method>addHandler</method>
+                    </add_Customer_handler>
+                </observers>
+            </controller_action_layout_load_before>
+        </events>
+  <frontend>
+</config>
